@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using JetBrains.Annotations;
 using Ploeh.AutoFixture;
 using Ploeh.AutoFixture.AutoNSubstitute;
 using Ploeh.AutoFixture.Xunit;
@@ -6,7 +7,7 @@ using Ploeh.AutoFixture.Xunit;
 namespace Selkie.XUnit.Extensions
 {
     [ExcludeFromCodeCoverage]
-    //ncrunch: no coverage start
+    [UsedImplicitly]
     public class AutoNSubstituteDataAttribute : AutoDataAttribute
     {
         public AutoNSubstituteDataAttribute()
@@ -14,6 +15,4 @@ namespace Selkie.XUnit.Extensions
         {
         }
     }
-
-    //ncrunch: no coverage end
 }

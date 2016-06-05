@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selkie.XUnit.Extensions", "Selkie.XUnit.Extensions\Selkie.XUnit.Extensions.csproj", "{BD049BEB-845E-4B57-A2DF-0336D7BC56A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Selkie.XUnit.Extensions", "NuGet.Selkie.XUnit.Extensions\NuGet.Selkie.XUnit.Extensions.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selkie.XUnit.Extensions.Tests", "Selkie.XUnit.Extensions.Tests\Selkie.XUnit.Extensions.Tests.csproj", "{99375B8D-F949-493B-A84A-75BB617FF5E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BE8D5A75-75A9-442C-8800-1D2BDEDF9AB9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99375B8D-F949-493B-A84A-75BB617FF5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99375B8D-F949-493B-A84A-75BB617FF5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99375B8D-F949-493B-A84A-75BB617FF5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99375B8D-F949-493B-A84A-75BB617FF5E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

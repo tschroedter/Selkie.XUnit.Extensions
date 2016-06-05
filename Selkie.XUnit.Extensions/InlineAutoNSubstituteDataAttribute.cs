@@ -6,7 +6,7 @@ using Xunit.Extensions;
 namespace Selkie.XUnit.Extensions
 {
     [ExcludeFromCodeCoverage]
-    //ncrunch: no coverage start
+    [UsedImplicitly]
     public class InlineAutoNSubstituteDataAttribute : CompositeDataAttribute
     {
         public InlineAutoNSubstituteDataAttribute([NotNull] params object[] values)
@@ -15,6 +15,4 @@ namespace Selkie.XUnit.Extensions
         {
         }
     }
-
-    //ncrunch: no coverage end
 }
